@@ -1,0 +1,42 @@
+# Packages to remove. One per line; # comments ignored.
+# Tested on Insignia NS-43DF710 — Fire OS 8.1.8.5 (RS8185/3891)
+
+# ads / tracking
+com.amazon.tv.acr                  # automatic content recognition (watches what's on screen)
+com.amazon.hybridadidservice       # advertising ID
+com.amazon.sneakpeek               # home-screen autoplay previews
+com.amazon.tv.easyupgrade          # upsell prompts
+
+# telemetry
+com.amazon.device.telemetry.emitter
+com.amazon.wirelessmetrics.service
+com.amazon.perfc
+com.amazon.perfcollection
+com.amazon.dp.logger
+com.amazon.logan
+
+# unused apps
+com.amazon.bueller.music
+com.amazon.bueller.photos
+com.amazon.ods.kindleconnect
+com.amazon.minitv.android.app
+com.amazon.shoptv.client
+com.amazon.shoptv.firetv.client
+com.amazon.gamehub
+com.amazon.spotify.mediabrowserservice
+
+# cruft
+com.amazon.storm.lightning.tutorial
+com.amazon.tmm.tutorial
+com.amazon.tv.releasenotes
+com.amazon.tv.earlyaccess
+
+# optional — uncomment if you don't use them
+# com.netflix.ninja
+# com.disney.disneyplus
+
+# Protected by Amazon on FOS 8.1 (ADB can't touch; block via DNS instead):
+#   com.amazon.ftvads.deeplinking
+#   com.amazon.device.metrics
+#   com.amazon.device.crashmanager
+#   com.amazon.device.logmanager

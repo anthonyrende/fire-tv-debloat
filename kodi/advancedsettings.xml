@@ -1,0 +1,7 @@
+<advancedsettings>
+  <cache>
+    <!-- ~133 MB RAM buffer; Kodi uses 3x this in practice -->
+    <memorysize>139460608</memorysize>
+    <readfactor>4</readfactor>
+  </cache>
+</advancedsettings>
