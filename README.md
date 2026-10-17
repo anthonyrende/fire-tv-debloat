@@ -30,3 +30,4 @@ Tested on Fire OS 8.1.8.5 (RS8185/3891).
   `adb shell am force-stop com.amazon.tv.launcher`.
 - 4 packages are protected by Amazon on FOS 8.1 and can't be touched via ADB (see bottom of `bloat.txt`) — block their traffic with Pi-hole / NextDNS instead.
 - Add packages one or two at a time, reboot, test.
+# fire-tv-debloat
